@@ -1,4 +1,4 @@
-# UNet Architecture Analysis for Semantic Segmentation
+# UNets Topology Tradeoff for Semantic Segmentation
 
 Compare **UNet**, **UNet++**, and **UNet 3+** through graph structure, finite-network kernel measurements, and semantic segmentation experiments on **Pascal VOC 2012**.
 
