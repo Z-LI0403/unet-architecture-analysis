@@ -1,0 +1,169 @@
+{
+  "runs": [
+    {
+      "run": "experiments/depth=3/seed42/UNet",
+      "architecture": "UNet",
+      "depth": 3,
+      "seed": 42,
+      "base_channels": 100,
+      "theoretical_status": "FAILED",
+      "empirical_status": "PRESENT",
+      "config_theoretical_only": true,
+      "final_val_miou": 0.1183,
+      "final_val_pixel_acc": 0.7297664225108552,
+      "recorded_epochs": 350,
+      "theoretical_param_count": null
+    },
+    {
+      "run": "experiments/depth=3/seed42/UNet3Plus",
+      "architecture": "UNet3Plus",
+      "depth": 3,
+      "seed": 42,
+      "base_channels": 93,
+      "theoretical_status": "PRESENT",
+      "empirical_status": "PRESENT",
+      "config_theoretical_only": true,
+      "final_val_miou": 0.0938,
+      "final_val_pixel_acc": 0.7519250653817968,
+      "recorded_epochs": 230,
+      "theoretical_param_count": 5145339
+    },
+    {
+      "run": "experiments/depth=3/seed42/UNetPlusPlus",
+      "architecture": "UNetPlusPlus",
+      "depth": 3,
+      "seed": 42,
+      "base_channels": 95,
+      "theoretical_status": "PRESENT",
+      "empirical_status": "PRESENT",
+      "config_theoretical_only": true,
+      "final_val_miou": 0.118,
+      "final_val_pixel_acc": 0.7226205571092793,
+      "recorded_epochs": 300,
+      "theoretical_param_count": 4881121
+    },
+    {
+      "run": "experiments/depth=4/seed42/UNet",
+      "architecture": "UNet",
+      "depth": 4,
+      "seed": 42,
+      "base_channels": 49,
+      "theoretical_status": "FAILED",
+      "empirical_status": "PRESENT",
+      "config_theoretical_only": true,
+      "final_val_miou": 0.12948453426361084,
+      "final_val_pixel_acc": 0.726466715335846,
+      "recorded_epochs": 350,
+      "theoretical_param_count": null
+    },
+    {
+      "run": "experiments/depth=4/seed42/UNet3Plus",
+      "architecture": "UNet3Plus",
+      "depth": 4,
+      "seed": 42,
+      "base_channels": 50,
+      "theoretical_status": "PRESENT",
+      "empirical_status": "PRESENT",
+      "config_theoretical_only": true,
+      "final_val_miou": 0.10912582278251648,
+      "final_val_pixel_acc": 0.7439149022102356,
+      "recorded_epochs": 225,
+      "theoretical_param_count": 4843621
+    },
+    {
+      "run": "experiments/depth=4/seed42/UNetPlusPlus",
+      "architecture": "UNetPlusPlus",
+      "depth": 4,
+      "seed": 42,
+      "base_channels": 45,
+      "theoretical_status": "PRESENT",
+      "empirical_status": "PRESENT",
+      "config_theoretical_only": true,
+      "final_val_miou": 0.12659016251564026,
+      "final_val_pixel_acc": 0.7240793704986572,
+      "recorded_epochs": 303,
+      "theoretical_param_count": 3814356
+    },
+    {
+      "run": "experiments/depth=5/seed42/UNet",
+      "architecture": "UNet",
+      "depth": 5,
+      "seed": 42,
+      "base_channels": 24,
+      "theoretical_status": "PRESENT",
+      "empirical_status": "PRESENT",
+      "config_theoretical_only": true,
+      "final_val_miou": 0.13426914811134338,
+      "final_val_pixel_acc": 0.7244499921798706,
+      "recorded_epochs": 350,
+      "theoretical_param_count": 3160821
+    },
+    {
+      "run": "experiments/depth=5/seed42/UNet3Plus",
+      "architecture": "UNet3Plus",
+      "depth": 5,
+      "seed": 42,
+      "base_channels": 28,
+      "theoretical_status": "PRESENT",
+      "empirical_status": "PRESENT",
+      "config_theoretical_only": true,
+      "final_val_miou": 0.12899620831012726,
+      "final_val_pixel_acc": 0.727291464805603,
+      "recorded_epochs": 190,
+      "theoretical_param_count": 4902149
+    },
+    {
+      "run": "experiments/depth=5/seed42/UNetPlusPlus",
+      "architecture": "UNetPlusPlus",
+      "depth": 5,
+      "seed": 42,
+      "base_channels": 22,
+      "theoretical_status": "FAILED",
+      "empirical_status": "PRESENT",
+      "config_theoretical_only": true,
+      "final_val_miou": 0.1241651400923729,
+      "final_val_pixel_acc": 0.7306241989135742,
+      "recorded_epochs": 303,
+      "theoretical_param_count": null
+    }
+  ],
+  "issues": [
+    {
+      "run": "experiments/depth=3/seed42/UNet",
+      "issue": "Configuration says theoretical_only=true but empirical_metrics.json is present; association/provenance unresolved."
+    },
+    {
+      "run": "experiments/depth=3/seed42/UNet3Plus",
+      "issue": "Configuration says theoretical_only=true but empirical_metrics.json is present; association/provenance unresolved."
+    },
+    {
+      "run": "experiments/depth=3/seed42/UNetPlusPlus",
+      "issue": "Configuration says theoretical_only=true but empirical_metrics.json is present; association/provenance unresolved."
+    },
+    {
+      "run": "experiments/depth=4/seed42/UNet",
+      "issue": "Configuration says theoretical_only=true but empirical_metrics.json is present; association/provenance unresolved."
+    },
+    {
+      "run": "experiments/depth=4/seed42/UNet3Plus",
+      "issue": "Configuration says theoretical_only=true but empirical_metrics.json is present; association/provenance unresolved."
+    },
+    {
+      "run": "experiments/depth=4/seed42/UNetPlusPlus",
+      "issue": "Configuration says theoretical_only=true but empirical_metrics.json is present; association/provenance unresolved."
+    },
+    {
+      "run": "experiments/depth=5/seed42/UNet",
+      "issue": "Configuration says theoretical_only=true but empirical_metrics.json is present; association/provenance unresolved."
+    },
+    {
+      "run": "experiments/depth=5/seed42/UNet3Plus",
+      "issue": "Configuration says theoretical_only=true but empirical_metrics.json is present; association/provenance unresolved."
+    },
+    {
+      "run": "experiments/depth=5/seed42/UNetPlusPlus",
+      "issue": "Configuration says theoretical_only=true but empirical_metrics.json is present; association/provenance unresolved."
+    }
+  ],
+  "interpretation": "Artifact inventory, not an independent reproduction or proof."
+}

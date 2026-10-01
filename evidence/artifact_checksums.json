@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "scope": "Distributed experiment metrics, configurations, sanitized failure reports and figures.",
+  "files": [
+    {
+      "path": "experiments/depth=3/dag_structural_analysis_UNet.json",
+      "bytes": 363,
+      "sha256": "e7598ab6d58b154b820cfec5cc570c3427aeca08bd6d6e673de588e4d73c3f97"
+    },
+    {
+      "path": "experiments/depth=3/dag_structural_analysis_UNet3Plus.json",
+      "bytes": 377,
+      "sha256": "7445ff2a1059c8d4ce60d3f22fa653279fdfd703cfbc1fea6277e997781da0c9"
+    },
+    {
+      "path": "experiments/depth=3/dag_structural_analysis_UNetPlusPlus.json",
+      "bytes": 382,
+      "sha256": "062ee3828ffe1876215695df889b08824c07a3b7f71b1c207c92047e50fa8e7e"
+    },
+    {
+      "path": "experiments/depth=3/seed42/UNet/config.json",
+      "bytes": 982,
+      "sha256": "6e11e66a5bf96d6caf989f700f83a0fa149a50bf5332ff8a2a7c867d78e552e1"
+    },
+    {
+      "path": "experiments/depth=3/seed42/UNet/empirical_metrics.json",
+      "bytes": 51714,
+      "sha256": "78622084a008f62016f7a5da1d30ff73020f90c237ab9cb61f200045abefb23d"
+    },
+    {
+      "path": "experiments/depth=3/seed42/UNet/theoretical_error.txt",
+      "bytes": 823,
+      "sha256": "45530d2b30a4d735de30b0d81de0c1e6e66eb4edfc38748360bcc82cf10e0e93"
+    },
+    {
+      "path": "experiments/depth=3/seed42/UNet3Plus/config.json",
+      "bytes": 986,
+      "sha256": "8305e618f7057559fe0eff7adca8443d892c9c5452f5c6fc9c5a1956e71e665a"
+    },
+    {
+      "path": "experiments/depth=3/seed42/UNet3Plus/empirical_metrics.json",
+      "bytes": 34431,
+      "sha256": "d07c0fd5369a469ccbd0d8be35d4ed9b90bca8d1975acc035424110aa22e9b11"
+    },
+    {
+      "path": "experiments/depth=3/seed42/UNet3Plus/theoretical_metrics.json",
+      "bytes": 34526,
+      "sha256": "2b77624dca854fe35c1eeda5443865ae55cfa9cd13033822d82cff1f4bc48a4d"
+    },
+    {
+      "path": "experiments/depth=3/seed42/UNetPlusPlus/config.json",
+      "bytes": 1010,
+      "sha256": "edf8ae83a1bf7b607beca326de6e0a249ed9cf474ca68ab141c16a0abd6ff5ce"
+    },
+    {
+      "path": "experiments/depth=3/seed42/UNetPlusPlus/empirical_metrics.json",
+      "bytes": 44557,
+      "sha256": "3c15cf3b59a9678a2e184bc6fc2d9749ffc00ba8fc0f6a46b1389715df03856d"
+    },
+    {
+      "path": "experiments/depth=3/seed42/UNetPlusPlus/theoretical_metrics.json",
+      "bytes": 34614,
+      "sha256": "e925742c1cf003ad378a567dda85c9041d28459c6368e58e9ebfe5c3903e24be"
+    },
+    {
+      "path": "experiments/depth=4/dag_structural_analysis_UNet.json",
+      "bytes": 398,
+      "sha256": "8e801824fd48a21002e688b7d9b94466d733d9d807f13caf913aefbd83482d20"
+    },
+    {
+      "path": "experiments/depth=4/dag_structural_analysis_UNet3Plus.json",
+      "bytes": 432,
+      "sha256": "8efff6712a899c523f2497957562412d888502f889268f380ea7c002567d3078"
+    },
+    {
+      "path": "experiments/depth=4/dag_structural_analysis_UNetPlusPlus.json",
+      "bytes": 491,
+      "sha256": "c98c645b0076394f5f92f8d7158f318c0330d61f96d3d7d015a0afc848f18bd6"
+    },
+    {
+      "path": "experiments/depth=4/seed42/UNet/config.json",
+      "bytes": 1024,
+      "sha256": "387b12a6647492f6dc069a67d3962440300d00edb8b7fe16345d4ab7a6ceae19"
+    },
+    {
+      "path": "experiments/depth=4/seed42/UNet/empirical_metrics.json",
+      "bytes": 50113,
+      "sha256": "ad1253ff7ff33060fae75d6fb1abc255ea1b5b30192758e2659d4d53c36de904"
+    },
+    {
+      "path": "experiments/depth=4/seed42/UNet/theoretical_error.txt",
+      "bytes": 823,
+      "sha256": "45530d2b30a4d735de30b0d81de0c1e6e66eb4edfc38748360bcc82cf10e0e93"
+    },
+    {
+      "path": "experiments/depth=4/seed42/UNet3Plus/config.json",
+      "bytes": 1029,
+      "sha256": "66891d18460d10233b48b3584e953ae107efd9690dabbbd12280bbcc1cfb876d"
+    },
+    {
+      "path": "experiments/depth=4/seed42/UNet3Plus/empirical_metrics.json",
+      "bytes": 32666,
+      "sha256": "1c5009c6fdd54e4858da5fa0fe22c0efc64f7e57fb2b6b2dd47c53b726049a3c"
+    },
+    {
+      "path": "experiments/depth=4/seed42/UNet3Plus/theoretical_metrics.json",
+      "bytes": 34490,
+      "sha256": "60690cda8049265cb5aa191716f4feec8b0c42baceb9d3b8271033ea7bc2dbcf"
+    },
+    {
+      "path": "experiments/depth=4/seed42/UNetPlusPlus/config.json",
+      "bytes": 1104,
+      "sha256": "fbbe1875ee14d7a31ae1775e688f721a72ab3e2285c3d58103d2121eb1f7cc8b"
+    },
+    {
+      "path": "experiments/depth=4/seed42/UNetPlusPlus/empirical_metrics.json",
+      "bytes": 43521,
+      "sha256": "eb63ef65facda75ee5621f0366cee2f0fecd1094a163a47e0cb19bf99bfc3ac5"
+    },
+    {
+      "path": "experiments/depth=4/seed42/UNetPlusPlus/theoretical_metrics.json",
+      "bytes": 34816,
+      "sha256": "0d4e45e81c63b161a18218a478cff26b7a8517ab74056b4f9b856903f9eb3b3a"
+    },
+    {
+      "path": "experiments/depth=5/dag_structural_analysis_UNet.json",
+      "bytes": 438,
+      "sha256": "2281c0809e2a1c10b1e4b3cf504144a4a1c0f0fbe11e7fe22ccc14eea1f21407"
+    },
+    {
+      "path": "experiments/depth=5/dag_structural_analysis_UNet3Plus.json",
+      "bytes": 470,
+      "sha256": "dbcdfb2c431c47edbd2f1f674089eb5c8fef1e1bde57fce3b955f64f95d2d983"
+    },
+    {
+      "path": "experiments/depth=5/dag_structural_analysis_UNetPlusPlus.json",
+      "bytes": 614,
+      "sha256": "c4366a56aa8819b948adc7939c56566ee59288bd29783f63c8d7d663289493a9"
+    },
+    {
+      "path": "experiments/depth=5/seed42/UNet/config.json",
+      "bytes": 1071,
+      "sha256": "39d305535f7202de6a0f2e38b77d0cc82d835d8d4f9ee705068e2f6153ac911d"
+    },
+    {
+      "path": "experiments/depth=5/seed42/UNet/empirical_metrics.json",
+      "bytes": 50152,
+      "sha256": "f4e57ddbfdfec15a8288d14d035b95c39ca65afd28d706e81c087d65ba901054"
+    },
+    {
+      "path": "experiments/depth=5/seed42/UNet/theoretical_metrics.json",
+      "bytes": 35220,
+      "sha256": "8f421f21569a4eb6225fa3d496bc8620a2f8098f45500ba2db2859fa84d37861"
+    },
+    {
+      "path": "experiments/depth=5/seed42/UNet3Plus/config.json",
+      "bytes": 1076,
+      "sha256": "00bbece88e5fcba530c6392522e3a14f2b7e942dc709fdfd4eeb5afc2ebd2f47"
+    },
+    {
+      "path": "experiments/depth=5/seed42/UNet3Plus/empirical_metrics.json",
+      "bytes": 27752,
+      "sha256": "9d4bac235986516c1e7adc5d5913badbb348f4062034679127eeb2b3d9aeb817"
+    },
+    {
+      "path": "experiments/depth=5/seed42/UNet3Plus/theoretical_metrics.json",
+      "bytes": 34414,
+      "sha256": "ba4cb8e1f17e852a39345a47d0ad00a4c1fe1d291a488220a11a1a9946d593c6"
+    },
+    {
+      "path": "experiments/depth=5/seed42/UNetPlusPlus/config.json",
+      "bytes": 1244,
+      "sha256": "572310af18883b17751af4af08249ad785227175366d7deb3875a76ffbe9b43a"
+    },
+    {
+      "path": "experiments/depth=5/seed42/UNetPlusPlus/empirical_metrics.json",
+      "bytes": 43545,
+      "sha256": "6553c734f9a7b5e8ce303f59ee606913108a53a874166e090c8a6168fef4b5ac"
+    },
+    {
+      "path": "experiments/depth=5/seed42/UNetPlusPlus/theoretical_error.txt",
+      "bytes": 823,
+      "sha256": "45530d2b30a4d735de30b0d81de0c1e6e66eb4edfc38748360bcc82cf10e0e93"
+    },
+    {
+      "path": "figures/depth=3/correlation_scatter.png",
+      "bytes": 279645,
+      "sha256": "a6fd6bbcb7baa59bb8c38679346c936cac887de757bfa108e60b39659fb53c33"
+    },
+    {
+      "path": "figures/depth=3/eigenvalue_spectrum.png",
+      "bytes": 122303,
+      "sha256": "03ee58c1794cce6e70e7eaafa62d54d138328e5b5436efff51d4b7b71052c1e6"
+    },
+    {
+      "path": "figures/depth=3/empirical_summary.png",
+      "bytes": 135083,
+      "sha256": "783c7211367df668b406d216a1dc746e3ab6096e37882a5dd9d35fe2837c8662"
+    },
+    {
+      "path": "figures/depth=3/ranking_table.txt",
+      "bytes": 1074,
+      "sha256": "5fb848d5f234f7ef5c730dc2b8a7ba5da891b3344bd779e4be4b9f1c0c1a3126"
+    },
+    {
+      "path": "figures/depth=3/theoretical_comparison.png",
+      "bytes": 245354,
+      "sha256": "fd4c92988e77630e931cc724881431fbf012d4786cf03df9333e3b2252d1a995"
+    },
+    {
+      "path": "figures/depth=3/training_curves.png",
+      "bytes": 277542,
+      "sha256": "bf7395bc06bcb3a434b10b5273d2fcf6b2d49322ee3b8dcdf01a3e6e6ed3be2a"
+    },
+    {
+      "path": "figures/depth=4/correlation_scatter.png",
+      "bytes": 271594,
+      "sha256": "45f4df7db40f606663b64814aaa5c67089801f430547b2f73b241cb3613fde43"
+    },
+    {
+      "path": "figures/depth=4/eigenvalue_spectrum.png",
+      "bytes": 124079,
+      "sha256": "a4f600f35ee52f891b7ac760a3959447410e76d4591311bbb5855afacd1416a0"
+    },
+    {
+      "path": "figures/depth=4/empirical_summary.png",
+      "bytes": 128108,
+      "sha256": "4895fd314e282b42ae8cf594186e7638d1d6130d914c17a1d8e47231d376878d"
+    },
+    {
+      "path": "figures/depth=4/ranking_table.txt",
+      "bytes": 1074,
+      "sha256": "f09e251bec8dc8a0bf9e258f529f15b1834ab5a6b16a6af8587df43a014abf53"
+    },
+    {
+      "path": "figures/depth=4/theoretical_comparison.png",
+      "bytes": 236087,
+      "sha256": "428817c1b298638cc070b37a0343456d2deb9e9659e2b983d9aa6078cdc3ba49"
+    },
+    {
+      "path": "figures/depth=4/training_curves.png",
+      "bytes": 301419,
+      "sha256": "a32c223049b1cfa220dec39c48aca77e693d39c92a1eecc9de3e0297c8725a6c"
+    },
+    {
+      "path": "figures/depth=5/correlation_scatter.png",
+      "bytes": 274201,
+      "sha256": "daea3378186742f67ecc02a8558da8a33f1eaff3393692a79e8d1a423e2f32a4"
+    },
+    {
+      "path": "figures/depth=5/eigenvalue_spectrum.png",
+      "bytes": 128416,
+      "sha256": "eb7f894eec61db400e566b209e6c8d409d43e19a33625e7880e31eebbbdf4941"
+    },
+    {
+      "path": "figures/depth=5/empirical_summary.png",
+      "bytes": 136134,
+      "sha256": "fb84ccf8f78057eb82529afa7e1dfa10464a8e335d448e304b94600a2e0d3579"
+    },
+    {
+      "path": "figures/depth=5/ranking_table.txt",
+      "bytes": 1074,
+      "sha256": "09be35ed889deec4898b6a6fdd0cab237226801522f644019ecc9e72e2a6280c"
+    },
+    {
+      "path": "figures/depth=5/theoretical_comparison.png",
+      "bytes": 237982,
+      "sha256": "578d7837872cbc4c6ed67201cb56befc0b42e67c1908cb249460b77e12ecd562"
+    },
+    {
+      "path": "figures/depth=5/training_curves.png",
+      "bytes": 310194,
+      "sha256": "4fe141af53999c0f8f316ef3ec13f501118e91efb86a160ebd19a90335c27464"
+    },
+    {
+      "path": "figures/depth_comparison/UNet/eigenvalue_spectrum.png",
+      "bytes": 112873,
+      "sha256": "8446335e6f8b89350d023b40cdd7f82d5def01a4755ec2aa85968a5c900ae53c"
+    },
+    {
+      "path": "figures/depth_comparison/UNet/empirical_summary.png",
+      "bytes": 136211,
+      "sha256": "28c8bcd95e4086864a846a02cd9a7466fb8699720f66236046da5a9f5224d1a4"
+    },
+    {
+      "path": "figures/depth_comparison/UNet/ranking_table.txt",
+      "bytes": 916,
+      "sha256": "efddb6a79a87f0415c69ac88b71bf2402c152b19eda3aa96b9bffcd28c850071"
+    },
+    {
+      "path": "figures/depth_comparison/UNet/theoretical_comparison.png",
+      "bytes": 197186,
+      "sha256": "59b0ecbdc687468b2f68ccb216571688c5612035e3f4abc7daef7ab77a3dd2a4"
+    },
+    {
+      "path": "figures/depth_comparison/UNet/training_curves.png",
+      "bytes": 319910,
+      "sha256": "68bb42cdd8726583acf422dbb7969fb0912e4ba603a53521ede01d09a405e568"
+    },
+    {
+      "path": "figures/depth_comparison/UNet3Plus/correlation_scatter.png",
+      "bytes": 295121,
+      "sha256": "25844dab3d2c98ddef174a32b90953b8ed4ba0e141ec93d2e9cb3573d54d86be"
+    },
+    {
+      "path": "figures/depth_comparison/UNet3Plus/eigenvalue_spectrum.png",
+      "bytes": 125197,
+      "sha256": "59c222c155a5dc30b7ba7c770461c1489cfa9ba972375cba1cbeeeb8066c0230"
+    },
+    {
+      "path": "figures/depth_comparison/UNet3Plus/empirical_summary.png",
+      "bytes": 120709,
+      "sha256": "a25c5291d9d755614cf5e49b839c647906edb33bface3fb22b3e71ca98fa8acd"
+    },
+    {
+      "path": "figures/depth_comparison/UNet3Plus/ranking_table.txt",
+      "bytes": 1231,
+      "sha256": "c3525f9bd4248b6b83948d4012ce811cda06e9ef5314b69f88f78527353c3430"
+    },
+    {
+      "path": "figures/depth_comparison/UNet3Plus/theoretical_comparison.png",
+      "bytes": 250931,
+      "sha256": "9c7d46e4f3abb9c6d40c40c0f6dbc930a9cac8ed48e2669be8e2a766a5f5d6df"
+    },
+    {
+      "path": "figures/depth_comparison/UNet3Plus/training_curves.png",
+      "bytes": 301413,
+      "sha256": "7a015637730ec44e73eca22e0472cf980601ad405548469eeed9bc43a3b2d4d4"
+    },
+    {
+      "path": "figures/depth_comparison/UNetPlusPlus/correlation_scatter.png",
+      "bytes": 261242,
+      "sha256": "99d48b3083abd3aecf57dcf021a0723b476392143011faea93489de30282642d"
+    },
+    {
+      "path": "figures/depth_comparison/UNetPlusPlus/eigenvalue_spectrum.png",
+      "bytes": 123161,
+      "sha256": "4fe7619aca076b1ee9d2ec6611cee990f3e663cbab366234195462245833c381"
+    },
+    {
+      "path": "figures/depth_comparison/UNetPlusPlus/empirical_summary.png",
+      "bytes": 124007,
+      "sha256": "7f3dd4530ed823edd2e9d6977478d4647369dcf10211326d8e8b34952a59dd36"
+    },
+    {
+      "path": "figures/depth_comparison/UNetPlusPlus/ranking_table.txt",
+      "bytes": 1075,
+      "sha256": "a55175b4b79ad664d6266add6ed568aab74339847afa38bdc41bcf4f702f3b15"
+    },
+    {
+      "path": "figures/depth_comparison/UNetPlusPlus/theoretical_comparison.png",
+      "bytes": 240097,
+      "sha256": "b46b1edf6b5ee743b03c00ac37e7e43279691482b2b98cd9bda646c954c4ca4d"
+    },
+    {
+      "path": "figures/depth_comparison/UNetPlusPlus/training_curves.png",
+      "bytes": 327611,
+      "sha256": "493bcddf64c102b4f6d5013fd51fa3b36643b2ea8c09c7565a0e246851b074f1"
+    }
+  ]
+}

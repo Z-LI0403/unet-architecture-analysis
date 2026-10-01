@@ -1,0 +1,10 @@
+run,architecture,depth,seed,base_channels,theoretical_status,empirical_status,config_theoretical_only,final_val_miou,final_val_pixel_acc,recorded_epochs,theoretical_param_count
+experiments/depth=3/seed42/UNet,UNet,3,42,100,FAILED,PRESENT,True,0.1183,0.7297664225108552,350,
+experiments/depth=3/seed42/UNet3Plus,UNet3Plus,3,42,93,PRESENT,PRESENT,True,0.0938,0.7519250653817968,230,5145339
+experiments/depth=3/seed42/UNetPlusPlus,UNetPlusPlus,3,42,95,PRESENT,PRESENT,True,0.118,0.7226205571092793,300,4881121
+experiments/depth=4/seed42/UNet,UNet,4,42,49,FAILED,PRESENT,True,0.12948453426361084,0.726466715335846,350,
+experiments/depth=4/seed42/UNet3Plus,UNet3Plus,4,42,50,PRESENT,PRESENT,True,0.10912582278251648,0.7439149022102356,225,4843621
+experiments/depth=4/seed42/UNetPlusPlus,UNetPlusPlus,4,42,45,PRESENT,PRESENT,True,0.12659016251564026,0.7240793704986572,303,3814356
+experiments/depth=5/seed42/UNet,UNet,5,42,24,PRESENT,PRESENT,True,0.13426914811134338,0.7244499921798706,350,3160821
+experiments/depth=5/seed42/UNet3Plus,UNet3Plus,5,42,28,PRESENT,PRESENT,True,0.12899620831012726,0.727291464805603,190,4902149
+experiments/depth=5/seed42/UNetPlusPlus,UNetPlusPlus,5,42,22,FAILED,PRESENT,True,0.1241651400923729,0.7306241989135742,303,

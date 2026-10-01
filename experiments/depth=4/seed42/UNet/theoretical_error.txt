@@ -1,0 +1,13 @@
+linalg.eigh: The algorithm failed to converge because the input matrix is ill-conditioned or has too many repeated eigenvalues (error code: 129).
+
+Traceback (most recent call last):
+  File "main.py", line 216, in run_single_experiment
+    theoretical_results = run_theoretical_analysis(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "theoretical_metrics.py", line 393, in run_theoretical_analysis
+    nngp_eig, ntk_eig = get_ntk_nngp_eig(
+                        ^^^^^^^^^^^^^^^^^
+  File "theoretical_metrics.py", line 280, in get_ntk_nngp_eig
+    eigenvalues_nngp = torch.linalg.eigh(nngp)[0]
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+torch._C._LinAlgError: linalg.eigh: The algorithm failed to converge because the input matrix is ill-conditioned or has too many repeated eigenvalues (error code: 129).

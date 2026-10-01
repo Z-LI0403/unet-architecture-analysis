@@ -1,0 +1,53 @@
+{
+    "model_name": "UNetPlusPlus",
+    "bn": false,
+    "dag_spec": {
+        "base_channels": 45,
+        "depth": 4
+    },
+    "theoretical_model_impl": "UNetDAG",
+    "theoretical_dag": {
+        "dag_string": "2_12_020_0102_10102_000200_0001002_01001002_101001002",
+        "node_scales": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            0,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "model_params": {
+        "n_channels": 3,
+        "n_classes": 21
+    },
+    "dataset_config": {
+        "dataset_name": "VOC2012",
+        "path": "dataset/VOC2012",
+        "img_size": [
+            256,
+            256
+        ],
+        "num_workers": 4
+    },
+    "train_params": {
+        "epochs": 350,
+        "batch_size": 16,
+        "lr": 0.01,
+        "momentum": 0.0,
+        "weight_decay": 0,
+        "warmup": 0,
+        "decreasing_lr": null,
+        "patience": 30
+    },
+    "seed": 42,
+    "ntk_batch_size": 128,
+    "n_interp": 128,
+    "complexity_fwd_batch_size": 4,
+    "repeat": 3,
+    "theoretical_only": true
+}

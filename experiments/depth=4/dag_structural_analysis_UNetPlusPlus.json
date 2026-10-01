@@ -1,0 +1,24 @@
+{
+    "dag_string": "2_12_020_0102_10102_000200_0001002_01001002_101001002",
+    "num_nodes": 10,
+    "num_edges": 19,
+    "num_param_edges": 9,
+    "num_skip_edges": 10,
+    "effective_depth": 2.1538461538461537,
+    "parameterized_end_to_end_paths": 9,
+    "end_to_end_paths": 13,
+    "effective_width": 4.178571428571429,
+    "unique_param_edges": 9,
+    "node_scales": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        3,
+        2,
+        1,
+        0
+    ]
+}
