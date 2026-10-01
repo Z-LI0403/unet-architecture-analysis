@@ -24,7 +24,7 @@ The table below is transcribed from the included empirical result files. Values 
 - `artifact_audit.json`: inventory and metadata contradictions.
 - `artifact_checksums.json`: SHA-256 and byte sizes for the distributed experiment/figure files.
 
-Run `uv run python tools/sanity_checks.py` to verify checksums and the dataset-free toy cases.
+Run `python tools/sanity_checks.py` to verify checksums and the dataset-free toy cases.
 
 ## Interpretation and provenance
 

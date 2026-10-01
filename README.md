@@ -12,16 +12,16 @@ The numerical analysis uses a `UNetDAG` surrogate; segmentation training uses th
 
 ## Installation
 
-Requirements: **Python 3.11+** and [uv](https://docs.astral.sh/uv/). The dataset is acquired separately. Full experiments are substantially more expensive than the small CPU sanity checks.
+Requirements: **Python 3.11+** and **pip**. The dataset is acquired separately. Full experiments are substantially more expensive than the small CPU sanity checks.
 
 ```bash
 git clone https://github.com/Z-LI0403/unet-architecture-analysis.git
 cd unet-architecture-analysis
-uv sync --locked
-uv run python main.py --help
+python -m pip install -r requirements.txt
+python main.py --help
 ```
 
-Dependency requirements are declared in `pyproject.toml`; `uv.lock` records the resolved versions. GPU availability depends on the installed PyTorch build and local hardware.
+Runtime dependencies and their versions are listed in `requirements.txt`. You can install them in a Python virtual environment of your choice. GPU availability depends on the installed PyTorch build and local hardware.
 
 ## Dataset
 
@@ -45,13 +45,13 @@ Use `--dataset_root /path/to/VOC2012` for experiments, or set `VOC2012_ROOT`. Th
 Run deterministic checks on small graphs, analytically solvable kernel and curve examples, segmentation metrics, and forward/backward passes:
 
 ```bash
-uv run python tools/sanity_checks.py
+python tools/sanity_checks.py
 ```
 
 These checks require no dataset. An additional end-to-end smoke script requires the dataset specifically under `dataset/VOC2012/`:
 
 ```bash
-uv run python smoke_test_end_to_end.py
+python smoke_test_end_to_end.py
 ```
 
 ### Architecture comparison
@@ -59,7 +59,7 @@ uv run python smoke_test_end_to_end.py
 Run all three architectures at depth 5 with a nominal 5M parameter budget and three random seeds:
 
 ```bash
-uv run python main.py --dataset VOC2012 --arch all --depth 5 --param_budget 5M --seeds 42,123,2024 --output_dir experiments/reproduction_depth5
+python main.py --dataset VOC2012 --arch all --depth 5 --param_budget 5M --seeds 42,123,2024 --output_dir experiments/reproduction_depth5
 ```
 
 The example writes to a new directory, preserving the included results. Supported nominal budgets are `2M`, `5M`, `10M`, and `15M`; architecture/depth-specific channel widths are selected from the calibration table. Exact parameter counts can differ. Use depth `3` or `4` for other supplied configurations, and `--theoretical_only` to skip training.
@@ -71,8 +71,8 @@ See [experiment commands](docs/experiments.md) for theory-only runs, explicit wi
 Generate plots from saved experiment files:
 
 ```bash
-uv run python visualization.py --experiment depth=5 --output_dir reproduced_figures
-uv run python visualization.py --compare_depths --model UNet3Plus --output_dir reproduced_figures
+python visualization.py --experiment depth=5 --output_dir reproduced_figures
+python visualization.py --compare_depths --model UNet3Plus --output_dir reproduced_figures
 ```
 
 `visualization.ipynb` provides an interactive version of the same plotting workflow.
@@ -90,6 +90,7 @@ Several configurations have `theoretical_only=true` while empirical results coex
 ## Repository structure
 
 ```text
+├── requirements.txt         # Python runtime dependencies
 ├── main.py                  # Experiment and inference entry point
 ├── models/                  # Standalone segmentation architectures
 ├── unet_dag.py              # DAG surrogate and architecture definitions

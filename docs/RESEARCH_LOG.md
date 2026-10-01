@@ -29,3 +29,7 @@ The public evidence was reviewed without changing model implementations or scien
 No scientific claim was upgraded through this documentation review. The small numerical sanity checks cover finite CPU toy cases; full VOC training and GPU behavior remain unverified. No new scientific assumptions or experiments were introduced. The authoritative research plan is not present in the supplied files, so plan-level consistency remains unresolved.
 
 Next dependency-valid research action: independent review of the intended plan, metric definitions and recorded-run provenance before broader interpretation or expanded experiments.
+
+## 2026-10-02 — runtime dependencies
+
+Runtime dependencies are specified in a standard `requirements.txt`, with the same direct-package versions as the validated environment. Installation and experiment commands use pip and Python. Research implementations and numerical artifacts are unchanged; no scientific claim status changed.
