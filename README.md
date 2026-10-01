@@ -15,8 +15,8 @@ The numerical analysis uses a `UNetDAG` surrogate; segmentation training uses th
 Requirements: **Python 3.11+** and **pip**. The dataset is acquired separately. Full experiments are substantially more expensive than the small CPU sanity checks.
 
 ```bash
-git clone https://github.com/Z-LI0403/unet-architecture-analysis.git
-cd unet-architecture-analysis
+git clone https://github.com/Z-LI0403/unets-topology-tradeoff.git
+cd unets-topology-tradeoff
 python -m pip install -r requirements.txt
 python main.py --help
 ```
